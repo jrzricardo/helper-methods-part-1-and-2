@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   
   # UPDATE
   patch "/movies/:id" => "movies#update" 
-  get "/movies/:id/edit" => "movies#update"
+  get "/movies/:id/edit" => "movies#edit"
   
   # DELETE
   delete "/movies/:id" => "movies#dsetroy"
